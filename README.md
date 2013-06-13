@@ -24,6 +24,14 @@ $('.yourdiv').hover(function () {
 });
 ```
 
+If you want to load the animation after certain time, you can use this example:
+```js
+//set timer to 5 seconds, after that, load the magic animation
+setTimeout(function(){
+  	$('.yourdiv').addClass('magictime puffIn');
+}, 5000);
+```
+
 You can change the time of the animation by set the class "magictime" for example:
 ```css
 .magictime {
