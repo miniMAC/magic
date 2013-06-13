@@ -330,8 +330,8 @@ animation-name: puffOut;
 }
 
 @-moz-keyframes rotateDown {
-0% { -moz-transform-origin: 0 0; -moz-transform: perspective(800) rotateX(0deg) translate3d(0,0,0); }
-100% { opacity: 0; -moz-transform-origin: 50% 100%; -moz-transform: perspective(800) rotateX(-180deg) translate3d(0,0,300px); }
+0% { -moz-transform-origin: 0 0; -moz-transform: perspective(800px) rotateX(0deg) translate3d(0,0,0); }
+100% { opacity: 0; -moz-transform-origin: 50% 100%; -moz-transform: perspective(800px) rotateX(-180deg) translate3d(0,0,300px); }
 }
 
 @-o-keyframes rotateDown { 
@@ -340,8 +340,8 @@ animation-name: puffOut;
 }
 
 @keyframes rotateDown { 
-0% { transform-origin: 0 0; transform: perspective(800) rotateX(0deg) translate3d(0,0,0); }
-100% { opacity: 0; transform-origin: 50% 100%; transform: perspective(800) rotateX(-180deg) translate3d(0,0,300px); }
+0% { transform-origin: 0 0; transform: perspective(800px) rotateX(0deg) translate3d(0,0,0); }
+100% { opacity: 0; transform-origin: 50% 100%; transform: perspective(800px) rotateX(-180deg) translate3d(0,0,300px); }
 }
 
 .rotateDown {
@@ -361,8 +361,8 @@ animation-name: rotateDown;
 }
 
 @-moz-keyframes rotateLeft {
-0% { -moz-transform-origin: 0 0; -moz-transform: perspective(800) rotateY(0deg) translate3d(0,0,0); }
-100% { opacity: 0; -moz-transform-origin: 50% 0; -moz-transform: perspective(800) rotateY(180deg) translate3d(0,0,300px); }
+0% { -moz-transform-origin: 0 0; -moz-transform: perspective(800px) rotateY(0deg) translate3d(0,0,0); }
+100% { opacity: 0; -moz-transform-origin: 50% 0; -moz-transform: perspective(800px) rotateY(180deg) translate3d(0,0,300px); }
 }
 
 @-o-keyframes rotateLeft { 
@@ -371,8 +371,8 @@ animation-name: rotateDown;
 }
 
 @keyframes rotateLeft { 
-0% { transform-origin: 0 0; transform: perspective(800) rotateY(0deg) translate3d(0,0,0); }
-100% { opacity: 0; transform-origin: 50% 0; transform: perspective(800) rotateY(180deg) translate3d(0,0,300px); }
+0% { transform-origin: 0 0; transform: perspective(800px) rotateY(0deg) translate3d(0,0,0); }
+100% { opacity: 0; transform-origin: 50% 0; transform: perspective(800px) rotateY(180deg) translate3d(0,0,300px); }
 }
 
 .rotateLeft {
@@ -392,8 +392,8 @@ animation-name: rotateLeft;
 }
 
 @-moz-keyframes rotateRight {
-0% { -moz-transform-origin: 0 0; -moz-transform: perspective(800) rotateY(0deg) translate3d(0,0,0); }
-100% { opacity: 0; -moz-transform-origin: 50% 0; -moz-transform: perspective(800) rotateY(-180deg) translate3d(0,0,150px); }
+0% { -moz-transform-origin: 0 0; -moz-transform: perspective(800px) rotateY(0deg) translate3d(0,0,0); }
+100% { opacity: 0; -moz-transform-origin: 50% 0; -moz-transform: perspective(800px) rotateY(-180deg) translate3d(0,0,150px); }
 }
 
 @-o-keyframes rotateRight { 
@@ -402,8 +402,8 @@ animation-name: rotateLeft;
 }
 
 @keyframes rotateRight { 
-0% { transform-origin: 0 0; transform: perspective(800) rotateY(0deg) translate3d(0,0,0); }
-100% { opacity: 0; transform-origin: 50% 0; transform: perspective(800) rotateY(-180deg) translate3d(0,0,150px); }
+0% { transform-origin: 0 0; transform: perspective(800px) rotateY(0deg) translate3d(0,0,0); }
+100% { opacity: 0; transform-origin: 50% 0; transform: perspective(800px) rotateY(-180deg) translate3d(0,0,150px); }
 }
 
 .rotateRight {
@@ -423,8 +423,8 @@ animation-name: rotateRight;
 }
 
 @-moz-keyframes rotateUp {
-0% { -moz-transform-origin: 0 0; -moz-transform: perspective(800) rotateX(0deg) translate3d(0,0,0); }
-100% { opacity: 0; -moz-transform-origin: 50% 0; -moz-transform: perspective(800) rotateX(180deg) translate3d(0,0,100px); }
+0% { -moz-transform-origin: 0 0; -moz-transform: perspective(800px) rotateX(0deg) translate3d(0,0,0); }
+100% { opacity: 0; -moz-transform-origin: 50% 0; -moz-transform: perspective(800px) rotateX(180deg) translate3d(0,0,100px); }
 }
 
 @-o-keyframes rotateUp { 
@@ -433,8 +433,8 @@ animation-name: rotateRight;
 }
 
 @keyframes rotateUp { 
-0% { transform-origin: 0 0; transform: perspective(800) rotateX(0deg) translate3d(0,0,0); }
-100% { opacity: 0; transform-origin: 50% 0; transform: perspective(800) rotateX(180deg) translate3d(0,0,100px); }
+0% { transform-origin: 0 0; transform: perspective(800px) rotateX(0deg) translate3d(0,0,0); }
+100% { opacity: 0; transform-origin: 50% 0; transform: perspective(800px) rotateX(180deg) translate3d(0,0,100px); }
 }
 
 .rotateUp {
