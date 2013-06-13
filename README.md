@@ -19,7 +19,7 @@ Example:
 
 This is a sample code on hover with jQuery, first you include the class "magictime" and after your desired animation.
 ```js
-$('.meta-thumb').hover(function () {
+$('.yourdiv').hover(function () {
   $(this).addClass('magictime puffIn');
 });
 ```
