@@ -3,7 +3,10 @@ magic
 
 CSS3 Animations with special effects
 
-Usage
+Installation
 =====
 
-coming soon
+Include one of two files magic.css or magic.min.css
+
+Usage
+=====
