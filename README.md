@@ -5,8 +5,8 @@ CSS3 Animations with special effects. Now on beta, more effects coming soon. Man
 My next step is to minifing the code.
 Take a look at the demo [link to demo page](http://www.minimamente.com/magic-css3-animations)
 
-Installation
-=====
+##Installation
+
 
 Include the CSS style: magic.css
 
@@ -15,8 +15,7 @@ Example:
 <link rel="stylesheet" href="yourpath/magic.css">
 ```
 
-Usage
-=====
+##Usage
 
 This is a sample code on hover with jQuery, first you include the class "magictime" and after your desired animation.
 ```js
