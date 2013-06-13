@@ -1,4 +1,3 @@
-```css
 body { -webkit-backface-visibility: hidden; }
 
 .magictime {
@@ -719,4 +718,3 @@ animation-name: vanishIn;
 -o-animation-name: vanishOut;
 animation-name: vanishOut;
 }
-'''
