@@ -42,7 +42,7 @@ animation-duration: 3s;
 }
 ```
 
-Default is CSS timing is:
+Default CSS timing is:
 ```css
 .magictime {
 -webkit-animation-duration: 1s;
