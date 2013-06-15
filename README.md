@@ -52,3 +52,12 @@ animation-duration: 1s;
 }
 ```
 
+If you want to assign the timing to a specific animation, you can use that code (use 2 class):
+```css
+.magictime.magic {
+-webkit-animation-duration: 10s;
+-moz-animation-duration: 10s;
+-o-animation-duration: 10s;
+animation-duration: 10s;
+}
+```
