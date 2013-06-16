@@ -9,6 +9,8 @@ Take a look at the demo [link to demo page](http://www.minimamente.com/magic-css
 
 
 Include the CSS style: magic.css
+or
+include the mynified version: magic.min.css
 
 Example:
 ```html
