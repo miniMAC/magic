@@ -1613,9 +1613,9 @@ animation-name: tinDownIn;
 }
 
 @-webkit-keyframes bombRightOut { 
-0% { opacity: 1; -webkit-transform-origin: 50% 50%; -webkit-transform: rotate(0deg) scale(1.0,1.0); -webkit-filter: blur(0px); }
-50% { opacity: 1; -webkit-transform-origin: 200% 50%; -webkit-transform: rotate(160deg) scale(2.0,2.0); -webkit-filter: blur(0px); }
-100% { opacity: 0; -webkit-transform-origin: 200% 50%; -webkit-transform: rotate(160deg) scale(2.0,2.0); -webkit-filter: blur(20px); }
+0% { opacity: 1; -webkit-transform-origin: 50% 50%; -webkit-transform: rotate(0deg); -webkit-filter: blur(0px); }
+50% { opacity: 1; -webkit-transform-origin: 200% 50%; -webkit-transform: rotate(160deg); -webkit-filter: blur(0px); }
+100% { opacity: 0; -webkit-transform-origin: 200% 50%; -webkit-transform: rotate(160deg); -webkit-filter: blur(20px); }
 }
 
 @-moz-keyframes bombRightOut {
