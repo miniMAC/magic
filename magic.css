@@ -192,7 +192,7 @@ body {
   -o-animation-name: perspectiveRightRetourn;
   animation-name: perspectiveRightRetourn;
 }
-.perspectiveUpRetourn backface-visibility: visible {
+.perspectiveUpRetourn {
   -webkit-animation-name: perspectiveUpRetourn;
   -moz-animation-name: perspectiveUpRetourn;
   -ms-animation-name: perspectiveUpRetourn;
