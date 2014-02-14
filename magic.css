@@ -491,7 +491,7 @@ body {
 @-o-keyframes magic {
   0% {
     opacity: 1;
-    -o-transform-origin: 100% 200%;);
+    -o-transform-origin: 100% 200%;
     -o-transform: scale(1, 1) rotate(0deg);
   }
 
