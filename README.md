@@ -38,8 +38,8 @@ If you want to load the animation after certain time but with infinite loop, you
 ```js
 //set timer to 3 seconds, after that, load the magic animation and repeat forever
 setInterval(function(){ 
-		$('.yourdiv').toggleClass('magictime puffIn');
-	}, 3000 );
+	$('.yourdiv').toggleClass('magictime puffIn');
+}, 3000 );
 ```
 
 You can change the time of the animation by set the class "magictime" for example:
