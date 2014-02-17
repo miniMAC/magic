@@ -1,3 +1,6 @@
+##Update
+GitHub have a problem with the minified code on submit. You can download the correct RAW version for this code here: [link to minified version](http://pastebin.com/raw.php?i=8w47RUQ2)
+
 magic
 =====
 
