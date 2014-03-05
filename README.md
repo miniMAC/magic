@@ -6,7 +6,7 @@ magic
 
 CSS3 Animations with special effects. Now on beta, more effects coming soon. Many thanks to [daneden](http://daneden.me/animate/) for inspiration!
 My next step is to minifing the code.
-Take a look at the demo [link to demo page](http://minimamente.com/example/magic_animations/)
+Take a look at the demo [NEW DEMO PAGE](http://minimamente.com/example/magic_animations/)
 
 ##Installation
 
