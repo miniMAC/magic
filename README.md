@@ -1,9 +1,12 @@
+##Update
+GitHub have a problem with the minified code on submit. You can download the correct RAW version for this code here: [link to minified version](http://pastebin.com/raw.php?i=8w47RUQ2)
+
 magic
 =====
 
 CSS3 Animations with special effects. Now on beta, more effects coming soon. Many thanks to [daneden](http://daneden.me/animate/) for inspiration!
 My next step is to minifing the code.
-Take a look at the demo [link to demo page](http://www.minimamente.com/magic-css3-animations)
+Take a look at the demo [NEW DEMO PAGE](http://minimamente.com/example/magic_animations/)
 
 ##Installation
 
@@ -32,6 +35,14 @@ If you want to load the animation after certain time, you can use this example:
 setTimeout(function(){
   	$('.yourdiv').addClass('magictime puffIn');
 }, 5000);
+```
+
+If you want to load the animation after certain time but with infinite loop, you can use this example:
+```js
+//set timer to 3 seconds, after that, load the magic animation and repeat forever
+setInterval(function(){ 
+	$('.yourdiv').toggleClass('magictime puffIn');
+}, 3000 );
 ```
 
 You can change the time of the animation by set the class "magictime" for example:
