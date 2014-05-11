@@ -1,0 +1,15 @@
+{
+  "name": "magic.css",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/jrutheiser/magic.git"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-cssmin": "~0.9.0",
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-autoprefixer": "~0.7.3"
+  }
+}
