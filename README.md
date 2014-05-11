@@ -1,6 +1,3 @@
-##Update
-GitHub have a problem with the minified code on submit. You can download the correct RAW version for this code here: [link to minified version](http://pastebin.com/raw.php?i=8w47RUQ2)
-
 magic
 =====
 
@@ -11,13 +8,11 @@ Take a look at the demo [NEW DEMO PAGE](http://minimamente.com/example/magic_ani
 ##Installation
 
 
-Include the CSS style: magic.css
-or
-include the mynified version: magic.min.css
+Include magic.css
 
 Example:
 ```html
-<link rel="stylesheet" href="yourpath/magic.css">
+<link rel="stylesheet" href="magic.min.css">
 ```
 
 ##Usage
@@ -40,7 +35,7 @@ setTimeout(function(){
 If you want to load the animation after certain time but with infinite loop, you can use this example:
 ```js
 //set timer to 3 seconds, after that, load the magic animation and repeat forever
-setInterval(function(){ 
+setInterval(function(){
 	$('.yourdiv').toggleClass('magictime puffIn');
 }, 3000 );
 ```
@@ -49,8 +44,6 @@ You can change the time of the animation by set the class "magictime" for exampl
 ```css
 .magictime {
 -webkit-animation-duration: 3s;
--moz-animation-duration: 3s;
--o-animation-duration: 3s;
 animation-duration: 3s;
 }
 ```
@@ -59,18 +52,6 @@ Default CSS timing is:
 ```css
 .magictime {
 -webkit-animation-duration: 1s;
--moz-animation-duration: 1s;
--o-animation-duration: 1s;
 animation-duration: 1s;
-}
-```
-
-If you want to assign the timing to a specific animation, you can use that code (use 2 class):
-```css
-.magictime.magic {
--webkit-animation-duration: 10s;
--moz-animation-duration: 10s;
--o-animation-duration: 10s;
-animation-duration: 10s;
 }
 ```
