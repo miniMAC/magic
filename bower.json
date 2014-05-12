@@ -1,0 +1,15 @@
+{
+    "name": "Magic",
+    "version": "1.0.0",
+    "description": "CSS3 Animations with special effects",
+    "keywords": [
+        "css",
+        "css3",
+        "magic",
+        "animations"
+    ],
+    "main": [
+        "magic.min.css"
+    ],
+    "license": "MIT"
+}
