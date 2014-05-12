@@ -22,7 +22,7 @@ module.exports = function(grunt) {
 
     autoprefixer: {
       options: {
-        browsers: ['> 1%', 'last 3 versions', 'bb 10', 'android 3']
+        browsers: ['last 3 versions', 'bb 10', 'android 3']
       },
       dist: {
         src: 'dist/magic.css'
