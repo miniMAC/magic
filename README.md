@@ -12,7 +12,7 @@ Include magic.css
 
 Example:
 ```html
-<link rel="stylesheet" href="magic.min.css">
+<link rel="stylesheet" href="dist/magic.min.css">
 ```
 
 ##Usage
