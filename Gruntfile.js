@@ -16,16 +16,13 @@ module.exports = function(grunt) {
 		cssmin: {
 			dist: {
 				src: ['dist/magic.css'],
-				dest: 'dist/magic.min.css',
-				options: {
-					banner: '/*! <%= pkg.name %> - v<%= pkg.version %> */'
-				}
+				dest: 'dist/magic.min.css'
 			}
 		},
 
     autoprefixer: {
       options: {
-        browsers: ['last 3 versions', 'bb 10', 'android 3']
+        browsers: ['> 1%', 'last 3 versions', 'bb 10', 'android 3']
       },
       dist: {
         src: 'dist/magic.css'
