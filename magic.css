@@ -55,33 +55,33 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   -o-animation-name: openUpRight;
   animation-name: openUpRight;
 }
-.openDownLeftRetourn {
-  -webkit-animation-name: openDownLeftRetourn;
-  -moz-animation-name: openDownLeftRetourn;
-  -ms-animation-name: openDownLeftRetourn;
-  -o-animation-name: openDownLeftRetourn;
-  animation-name: openDownLeftRetourn;
+.openDownLeftReturn {
+  -webkit-animation-name: openDownLeftReturn;
+  -moz-animation-name: openDownLeftReturn;
+  -ms-animation-name: openDownLeftReturn;
+  -o-animation-name: openDownLeftReturn;
+  animation-name: openDownLeftReturn;
 }
-.openDownRightRetourn {
-  -webkit-animation-name: openDownRightRetourn;
-  -moz-animation-name: openDownRightRetourn;
-  -ms-animation-name: openDownRightRetourn;
-  -o-animation-name: openDownRightRetourn;
-  animation-name: openDownRightRetourn;
+.openDownRightReturn {
+  -webkit-animation-name: openDownRightReturn;
+  -moz-animation-name: openDownRightReturn;
+  -ms-animation-name: openDownRightReturn;
+  -o-animation-name: openDownRightReturn;
+  animation-name: openDownRightReturn;
 }
-.openUpLeftRetourn {
-  -webkit-animation-name: openUpLeftRetourn;
-  -moz-animation-name: openUpLeftRetourn;
-  -ms-animation-name: openUpLeftRetourn;
-  -o-animation-name: openUpLeftRetourn;
-  animation-name: openUpLeftRetourn;
+.openUpLeftReturn {
+  -webkit-animation-name: openUpLeftReturn;
+  -moz-animation-name: openUpLeftReturn;
+  -ms-animation-name: openUpLeftReturn;
+  -o-animation-name: openUpLeftReturn;
+  animation-name: openUpLeftReturn;
 }
-.openUpRightRetourn {
-  -webkit-animation-name: openUpRightRetourn;
-  -moz-animation-name: openUpRightRetourn;
-  -ms-animation-name: openUpRightRetourn;
-  -o-animation-name: openUpRightRetourn;
-  animation-name: openUpRightRetourn;
+.openUpRightReturn {
+  -webkit-animation-name: openUpRightReturn;
+  -moz-animation-name: openUpRightReturn;
+  -ms-animation-name: openUpRightReturn;
+  -o-animation-name: openUpRightReturn;
+  animation-name: openUpRightReturn;
 }
 .openDownLeftOut {
   -webkit-animation-name: openDownLeftOut;
