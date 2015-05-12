@@ -1,15 +1,20 @@
 {
-    "name": "magic",
-    "version": "1.1.0",
-    "description": "CSS3 Animations with special effects",
-    "keywords": [
-        "css",
-        "css3",
-        "magic",
-        "animations"
-    ],
-    "main": [
-        "magic.min.css"
-    ],
-    "license": "MIT"
+  name: 'magic',
+  version: '1.1.0',
+  authors: [
+    'miniMAC <minimamente@me.com>'
+  ],
+  description: 'CSS3 Animations with special effects',
+  main: 'magic.css',
+  moduleType: [
+    'node'
+  ],
+  keywords: [
+    'css',
+    'css3',
+    'animations',
+    'magic'
+  ],
+  license: 'MIT',
+  homepage: 'http://www.minimamente.com'
 }
