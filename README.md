@@ -1,4 +1,4 @@
-magic
+:tophat: magic
 =====
 
 CSS3 Animations with special effects. Many thanks to [daneden](http://daneden.me/animate/) for inspiration!
