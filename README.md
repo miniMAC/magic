@@ -74,3 +74,15 @@ animation-duration: 10s;
 ```
 bower install magic
 ```
+##Browser Support
+Browsers | Version
+------------ | -------------
+Chrome | 31+
+Firefox | 31+
+Safari | 7+
+iOS Safari | 7.1+
+Opera | 27+
+Android | 4.1+
+Android Chrome | 42+
+IE | 10+
+Opera Mini | :x:
