@@ -293,6 +293,10 @@ Copyright (c) 2014 Christian Pucci
   -webkit-animation-name: spaceInLeft;
   animation-name: spaceInLeft;
 }
+.spinAndReturn{
+  -webkit-animation-name:spinAndReturn;
+  animation-name: spinAndReturn;
+}
 
 @-webkit-keyframes magic {
   0% {
@@ -2224,4 +2228,37 @@ Copyright (c) 2014 Christian Pucci
     transform-origin: 0% 50%;
     transform: scale(1) translate(0%, 0%);
   }
+}
+@-webkit-keyframes spinAndReturn {
+     0%   {transform: rotate(0deg);}
+    10%   {transform: rotate(36deg);}
+    20%   {transform: rotate(72deg);}
+    30%   {transform: rotate(108deg);}
+    40%   {transform: rotate(144deg);}
+    50%   {transform: rotate(180deg);
+           width: 1%;
+           height: 1%;
+         }
+    60%  {transform: rotate(216deg);}
+    70%  {transform: rotate(252deg);}
+    80%  {transform: rotate(288deg);}
+    90%  {transform: rotate(324deg);}
+    100% {transform: rotate(360deg);}
+}
+@keyframes spinAndReturn {
+ 
+     0%   {transform: rotate(0deg);}
+    10%   {transform: rotate(36deg);}
+    20%   {transform: rotate(72deg);}
+    30%   {transform: rotate(108deg);}
+    40%   {transform: rotate(144deg);}
+    50%   {transform: rotate(180deg);
+           width: 1%;
+           height: 1%;
+          }
+    60%  {transform: rotate(216deg);}
+    70%  {transform: rotate(252deg);}
+    80%  {transform: rotate(288deg);}
+    90%  {transform: rotate(324deg);}
+    100% {transform: rotate(360deg);}
 }
