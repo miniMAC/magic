@@ -86,8 +86,8 @@ Android | 4.1+
 Android Chrome | 42+
 IE | 10+
 Opera Mini | :x:
-```
+
 ##PostCSS installer
-```
+
 PostCSS plugin that adds @keyframes from Magic Animations [Link Here](https://github.com/nucliweb/postcss-magic-animations)
 Thanks to [@Nucliweb](https://github.com/nucliweb)
