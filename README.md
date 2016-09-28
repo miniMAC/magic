@@ -1,7 +1,7 @@
 :tophat: magic
 =====
 
-CSS3 Animations with special effects. Take a look: [DEMO PAGE](http://minimamente.com/example/magic_animations/)
+CSS3 Animations with special effects. Take a look: [DEMO PAGE](https://minimamente.com/example/magic_animations/)
 
 This is the **new Version**, all code are Refactoring and now `Retorun` is called `Return`
 
