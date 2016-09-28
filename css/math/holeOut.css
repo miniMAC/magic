@@ -1,0 +1,16 @@
+.holeOut {
+  animation-name: holeOut;
+}
+@keyframes holeOut {
+  0% {
+    opacity: 1;
+    transform-origin: 50% 50%;
+    transform: scale(1, 1) rotateY(0deg);
+  }
+
+  100% {
+    opacity: 0;
+    transform-origin: 50% 50%;
+    transform: scale(0, 0) rotateY(180deg);
+  }
+}

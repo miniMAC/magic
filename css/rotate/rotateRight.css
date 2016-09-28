@@ -1,0 +1,16 @@
+.rotateRight {
+  animation-name: rotateRight;
+}
+@keyframes rotateRight {
+  0% {
+  	opacity: 1;
+    transform-origin: 0 0;
+    transform: perspective(800px) rotateY(0deg) translate3d(0px);
+  }
+
+  100% {
+    opacity: 0;
+    transform-origin: 50% 0;
+    transform: perspective(800px) rotateY(-180deg) translateZ(150px);
+  }
+}

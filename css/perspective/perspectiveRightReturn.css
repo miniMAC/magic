@@ -1,0 +1,14 @@
+.perspectiveRightReturn {
+  animation-name: perspectiveRightReturn;
+}
+@keyframes perspectiveRightReturn {
+  0% {
+    transform-origin: 100% 0;
+    transform: perspective(800px) rotateY(180deg);
+  }
+
+  100% {
+    transform-origin: 100% 0;
+    transform: perspective(800px) rotateY(0deg);
+  }
+}

@@ -1,0 +1,18 @@
+.openDownRightOut {
+  animation-name: openDownRightOut;
+}
+@keyframes openDownRightOut {
+  0% {
+    opacity: 1;
+    transform-origin: bottom right;
+    transform: rotate(0deg);
+    animation-timing-function: ease-out;
+  }
+
+  100% {
+    opacity: 0;
+    transform-origin: bottom right;
+    transform: rotate(110deg);
+    animation-timing-function: ease-in-out;
+  }
+}

@@ -1,0 +1,19 @@
+.tinLeftIn {
+  animation-name: tinLeftIn;
+}
+@keyframes tinLeftIn {
+  0% {
+    opacity: 0;
+    transform: scale(1, 1) translateX(-900%);
+  }
+
+  50%, 70%, 90% {
+    opacity: 1;
+    transform: scale(1.1, 1.1) translateX(0);
+  }
+
+  60%, 80%, 100% {
+    opacity: 1;
+    transform: scale(1, 1) translateX(0);
+  }
+}

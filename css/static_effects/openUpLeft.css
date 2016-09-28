@@ -1,0 +1,16 @@
+.openUpLeft {
+  animation-name: openUpLeft;
+}
+@keyframes openUpLeft {
+  0% {
+    transform-origin: top left;
+    transform: rotate(0deg);
+    animation-timing-function: ease-out;
+  }
+
+  100% {
+    transform-origin: top left;
+    transform: rotate(110deg);
+    animation-timing-function: ease-in-out;
+  }
+}

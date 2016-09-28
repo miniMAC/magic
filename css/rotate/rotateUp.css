@@ -1,0 +1,16 @@
+.rotateUp {
+  animation-name: rotateUp;
+}
+@keyframes rotateUp {
+  0% {
+  	opacity: 1;
+    transform-origin: 0 0;
+    transform: perspective(800px) rotateX(0deg) translateZ(0px);
+  }
+
+  100% {
+    opacity: 0;
+    transform-origin: 50% 0;
+    transform: perspective(800px) rotateX(180deg) translateZ(100px);
+  }
+}

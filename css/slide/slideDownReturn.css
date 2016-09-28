@@ -1,0 +1,14 @@
+.slideDownReturn {
+  animation-name: slideDownReturn;
+}
+@keyframes slideDownReturn {
+  0% {
+    transform-origin: 0 0;
+    transform: translateY(100%);
+  }
+
+  100% {
+    transform-origin: 0 0;
+    transform: translateY(0%);
+  }
+}
