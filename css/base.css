@@ -5,6 +5,6 @@ Licensed under the MIT license
 Copyright (c) 2016 Christian Pucci
 */
 .magictime {
-	animation-duration: 1s;
-	animation-fill-mode: both;
+    animation-duration: 1s;
+    animation-fill-mode: both;
 }

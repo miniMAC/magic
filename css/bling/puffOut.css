@@ -6,13 +6,13 @@
     opacity: 1;
     transform-origin: 50% 50%;
     transform: scale(1,1);
-    -webkit-filter: blur(0px);
+    filter: blur(0px);
   }
 
   100% {
     opacity: 0;
     transform-origin: 50% 50%;
     transform: scale(2,2);
-    -webkit-filter: blur(2px);
+    filter: blur(2px);
   }
 }
