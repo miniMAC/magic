@@ -5,7 +5,7 @@ CSS3 Animations with special effects. Take a look: [DEMO PAGE](https://minimamen
 
 This is the **new Version**, all code are Refactoring and now `Retorun` is called `Return`
 
-If you want to use magic animations in `[react]`(https://github.com/facebook/react), see `[react-magic]`(https://github.com/react-map/react-magic) repository.
+If you want to use magic animations in [react](https://github.com/facebook/react), see [react-magic](https://github.com/react-map/react-magic) repository.
 ##Installation
 
 
