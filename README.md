@@ -6,7 +6,7 @@ CSS3 Animations with special effects. Take a look: [DEMO PAGE](https://minimamen
 This is the **new Version**, all code are Refactoring and now `Retorun` is called `Return`
 
 If you want to use magic animations in [react](https://github.com/facebook/react), see [react-magic](https://github.com/react-map/react-magic) repository.
-##Installation
+## Installation
 
 
 Include the CSS style: magic.css
@@ -18,7 +18,7 @@ Example:
 <link rel="stylesheet" href="yourpath/magic.css">
 ```
 
-##Usage
+## Usage
 
 This is a sample code on hover with jQuery, first you include the class "magictime" and after your desired animation.
 ```js
@@ -72,11 +72,11 @@ If you want to assign the timing to a specific animation, you can use that code 
 animation-duration: 10s;
 }
 ```
-##Bower Installation
+## Bower Installation
 ```
 bower install magic
 ```
-##Browser Support
+## Browser Support
 
 Browsers | Version
 --- | ---
@@ -90,7 +90,7 @@ Android Chrome | 42+
 IE | 10+
 Opera Mini | :x:
 
-##PostCSS installer
+## PostCSS installer
 
 PostCSS plugin that adds @keyframes from Magic Animations [Link Here](https://github.com/nucliweb/postcss-magic-animations)
 Thanks to [@Nucliweb](https://github.com/nucliweb)
