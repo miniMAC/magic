@@ -76,8 +76,9 @@ animation-duration: 10s;
 bower install magic
 ```
 ##Browser Support
+
 Browsers | Version
------------- | -------------
+--- | ---
 Chrome | 31+
 Firefox | 31+
 Safari | 7+
