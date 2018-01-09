@@ -11,6 +11,6 @@
   100% {
     opacity: 0;
     transform-origin: 50% 0;
-    transform: perspective(800px) rotateY(180deg) translateZ(300px);
+    transform: perspective(800px) rotateY(-180deg) translateZ(300px);
   }
 }
