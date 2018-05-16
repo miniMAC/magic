@@ -1,5 +1,5 @@
 {
-  "name": "magic",
+  "name": "magic.css",
   "version": "1.3.0",
   "description": "Magic CSS3 animations",
   "main": "gulpfile.js",
