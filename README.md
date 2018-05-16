@@ -3,8 +3,6 @@
 
 CSS3 Animations with special effects. Take a look: [DEMO PAGE](https://minimamente.com/example/magic_animations/)
 
-This is the **new Version**, all code are Refactoring and now `Retorun` is called `Return`
-
 If you want to use magic animations in [react](https://github.com/facebook/react), see [react-magic](https://github.com/react-map/react-magic) repository.
 ## Installation
 
@@ -47,8 +45,6 @@ You can change the time of the animation by set the class "magictime" for exampl
 ```css
 .magictime {
 -webkit-animation-duration: 3s;
--moz-animation-duration: 3s;
--o-animation-duration: 3s;
 animation-duration: 3s;
 }
 ```
@@ -57,8 +53,6 @@ Default CSS timing is:
 ```css
 .magictime {
 -webkit-animation-duration: 1s;
--moz-animation-duration: 1s;
--o-animation-duration: 1s;
 animation-duration: 1s;
 }
 ```
@@ -67,8 +61,6 @@ If you want to assign the timing to a specific animation, you can use that code 
 ```css
 .magictime.magic {
 -webkit-animation-duration: 10s;
--moz-animation-duration: 10s;
--o-animation-duration: 10s;
 animation-duration: 10s;
 }
 ```
@@ -89,8 +81,3 @@ Android | 4.1+
 Android Chrome | 42+
 IE | 10+
 Opera Mini | :x:
-
-## PostCSS installer
-
-PostCSS plugin that adds @keyframes from Magic Animations [Link Here](https://github.com/nucliweb/postcss-magic-animations)
-Thanks to [@Nucliweb](https://github.com/nucliweb)

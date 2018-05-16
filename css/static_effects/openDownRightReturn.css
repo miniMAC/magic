@@ -1,16 +1,42 @@
 .openDownRightReturn {
-  animation-name: openDownRightReturn;
+  -webkit-animation-name: openDownRightReturn;
+          animation-name: openDownRightReturn;
 }
-@keyframes openDownRightReturn {
+@-webkit-keyframes openDownRightReturn {
   0% {
-    transform-origin: bottom right;
-    transform: rotate(110deg);
-    animation-timing-function: ease-in-out;
+    -webkit-transform-origin: bottom right;
+            transform-origin: bottom right;
+    -webkit-transform: rotate(110deg);
+            transform: rotate(110deg);
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
   }
 
   100% {
-    transform-origin: bottom right;
-    transform: rotate(0deg);
-    animation-timing-function: ease-out;
+    -webkit-transform-origin: bottom right;
+            transform-origin: bottom right;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+}
+@keyframes openDownRightReturn {
+  0% {
+    -webkit-transform-origin: bottom right;
+            transform-origin: bottom right;
+    -webkit-transform: rotate(110deg);
+            transform: rotate(110deg);
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+  }
+
+  100% {
+    -webkit-transform-origin: bottom right;
+            transform-origin: bottom right;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
   }
 }

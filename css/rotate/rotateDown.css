@@ -1,16 +1,38 @@
 .rotateDown {
-  animation-name: rotateDown;
+  -webkit-animation-name: rotateDown;
+          animation-name: rotateDown;
 }
-@keyframes rotateDown {
+@-webkit-keyframes rotateDown {
   0% {
-  	opacity: 1;
-    transform-origin: 0 0;
-    transform: perspective(800px) rotateX(0deg) translateZ(0px);
+    opacity: 1;
+    -webkit-transform-origin: 0 0;
+            transform-origin: 0 0;
+    -webkit-transform: perspective(800px) rotateX(0deg) translateZ(0px);
+            transform: perspective(800px) rotateX(0deg) translateZ(0px);
   }
 
   100% {
     opacity: 0;
-    transform-origin: 50% 100%;
-    transform: perspective(800px) rotateX(-180deg) translateZ(300px);
+    -webkit-transform-origin: 50% 100%;
+            transform-origin: 50% 100%;
+    -webkit-transform: perspective(800px) rotateX(-180deg) translateZ(300px);
+            transform: perspective(800px) rotateX(-180deg) translateZ(300px);
+  }
+}
+@keyframes rotateDown {
+  0% {
+    opacity: 1;
+    -webkit-transform-origin: 0 0;
+            transform-origin: 0 0;
+    -webkit-transform: perspective(800px) rotateX(0deg) translateZ(0px);
+            transform: perspective(800px) rotateX(0deg) translateZ(0px);
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform-origin: 50% 100%;
+            transform-origin: 50% 100%;
+    -webkit-transform: perspective(800px) rotateX(-180deg) translateZ(300px);
+            transform: perspective(800px) rotateX(-180deg) translateZ(300px);
   }
 }
