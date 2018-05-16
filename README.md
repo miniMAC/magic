@@ -64,6 +64,11 @@ If you want to assign the timing to a specific animation, you can use that code 
 animation-duration: 10s;
 }
 ```
+
+## NPM installation
+**Install via NPM**: npm install magic.css [link to npm package](https://www.npmjs.com/package/magic.css)
+
+
 ## Browser Support
 
 Browsers | Version
