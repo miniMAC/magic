@@ -4,7 +4,6 @@ npm install gulp
 npm install --save-dev gulp-clean-css
 npm install --save-dev gulp-concat
 npm install --save-dev gulp-notify
-
 short syntax: npm install --save-dev gulp-clean-css gulp-concat gulp-notify
 */
 

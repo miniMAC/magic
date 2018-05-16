@@ -64,10 +64,6 @@ If you want to assign the timing to a specific animation, you can use that code 
 animation-duration: 10s;
 }
 ```
-## Bower Installation
-```
-bower install magic
-```
 ## Browser Support
 
 Browsers | Version
