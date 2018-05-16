@@ -1,6 +1,6 @@
 {
   "name": "magic",
-  "version": "2.1.0",
+  "version": "1.3.0",
   "description": "Magic CSS3 animations",
   "main": "gulpfile.js",
   "devDependencies": {
