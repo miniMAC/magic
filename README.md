@@ -9,7 +9,7 @@ If you want to use magic animations in [react](https://github.com/facebook/react
 
 Include the CSS style: magic.css
 or
-include the mynified version: magic.min.css
+include the minified version: magic.min.css
 
 Example:
 ```html
@@ -29,7 +29,7 @@ If you want to load the animation after certain time, you can use this example:
 ```js
 //set timer to 5 seconds, after that, load the magic animation
 setTimeout(function(){
-  	$('.yourdiv').addClass('magictime puffIn');
+  $('.yourdiv').addClass('magictime puffIn');
 }, 5000);
 ```
 
@@ -41,7 +41,7 @@ setInterval(function(){
 }, 3000 );
 ```
 
-You can change the time of the animation by set the class "magictime" for example:
+You can change the time of the animation by setting the class "magictime" for example:
 ```css
 .magictime {
 -webkit-animation-duration: 3s;
@@ -52,16 +52,16 @@ animation-duration: 3s;
 Default CSS timing is:
 ```css
 .magictime {
--webkit-animation-duration: 1s;
-animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
 }
 ```
 
-If you want to assign the timing to a specific animation, you can use that code (use 2 class):
+If you want to assign the timing to a specific animation, you can use the following code (use 2 class):
 ```css
 .magictime.magic {
--webkit-animation-duration: 10s;
-animation-duration: 10s;
+  -webkit-animation-duration: 10s;
+  animation-duration: 10s;
 }
 ```
 
