@@ -123,7 +123,7 @@ and last command:
 gulp
 ```
 
-**Automaticcaly** this generate the new files!
+**Automatically** this generate the new files!
 
 
 :white_check_mark: Browser Support
