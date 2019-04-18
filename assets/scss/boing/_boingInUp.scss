@@ -1,0 +1,52 @@
+.boingInUp {
+  -webkit-animation-name: boingInUp;
+  animation-name: boingInUp;
+}
+
+@-webkit-keyframes boingInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+    -webkit-transform: perspective(800px) rotateX(-90deg);
+    transform: perspective(800px) rotateX(-90deg);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+    -webkit-transform: perspective(800px) rotateX(50deg);
+    transform: perspective(800px) rotateX(50deg);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+    -webkit-transform: perspective(800px) rotateX(0deg);
+    transform: perspective(800px) rotateX(0deg);
+  }
+}
+
+@keyframes boingInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+    -webkit-transform: perspective(800px) rotateX(-90deg);
+    transform: perspective(800px) rotateX(-90deg);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+    -webkit-transform: perspective(800px) rotateX(50deg);
+    transform: perspective(800px) rotateX(50deg);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+    -webkit-transform: perspective(800px) rotateX(0deg);
+    transform: perspective(800px) rotateX(0deg);
+  }
+}

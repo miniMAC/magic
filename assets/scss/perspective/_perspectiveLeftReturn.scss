@@ -1,0 +1,34 @@
+.perspectiveLeftReturn {
+  -webkit-animation-name: perspectiveLeftReturn;
+  animation-name: perspectiveLeftReturn;
+}
+@-webkit-keyframes perspectiveLeftReturn {
+  0% {
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: perspective(800px) rotateY(-180deg);
+    transform: perspective(800px) rotateY(-180deg);
+  }
+
+  100% {
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: perspective(800px) rotateY(0deg);
+    transform: perspective(800px) rotateY(0deg);
+  }
+}
+@keyframes perspectiveLeftReturn {
+  0% {
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: perspective(800px) rotateY(-180deg);
+    transform: perspective(800px) rotateY(-180deg);
+  }
+
+  100% {
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: perspective(800px) rotateY(0deg);
+    transform: perspective(800px) rotateY(0deg);
+  }
+}

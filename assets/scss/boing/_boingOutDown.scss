@@ -1,0 +1,86 @@
+.boingOutDown {
+  -webkit-animation-name: boingOutDown;
+  animation-name: boingOutDown;
+}
+@-webkit-keyframes boingOutDown {
+  0% {
+    opacity: 1;
+    -webkit-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+    -webkit-transform: perspective(800px) rotateX(0deg) rotateY(0deg);
+    transform: perspective(800px) rotateX(0deg) rotateY(0deg);
+  }
+
+  20% {
+    opacity: 1;
+    -webkit-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+    -webkit-transform: perspective(800px) rotateX(0deg) rotateY(10deg);
+    transform: perspective(800px) rotateX(0deg) rotateY(10deg);
+  }
+
+  30% {
+    opacity: 1;
+    -webkit-transform-origin: 0% 100%;
+    transform-origin: 0% 100%;
+    -webkit-transform: perspective(800px) rotateX(0deg) rotateY(0deg);
+    transform: perspective(800px) rotateX(0deg) rotateY(0deg);
+  }
+
+  40% {
+    opacity: 1;
+    -webkit-transform-origin: 0% 100%;
+    transform-origin: 0% 100%;
+    -webkit-transform: perspective(800px) rotateX(10deg) rotateY(10deg);
+    transform: perspective(800px) rotateX(10deg) rotateY(10deg);
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+    -webkit-transform: perspective(800px) rotateX(90deg) rotateY(0deg);
+    transform: perspective(800px) rotateX(90deg) rotateY(0deg);
+  }
+}
+@keyframes boingOutDown {
+  0% {
+    opacity: 1;
+    -webkit-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+    -webkit-transform: perspective(800px) rotateX(0deg) rotateY(0deg);
+    transform: perspective(800px) rotateX(0deg) rotateY(0deg);
+  }
+
+  20% {
+    opacity: 1;
+    -webkit-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+    -webkit-transform: perspective(800px) rotateX(0deg) rotateY(10deg);
+    transform: perspective(800px) rotateX(0deg) rotateY(10deg);
+  }
+
+  30% {
+    opacity: 1;
+    -webkit-transform-origin: 0% 100%;
+    transform-origin: 0% 100%;
+    -webkit-transform: perspective(800px) rotateX(0deg) rotateY(0deg);
+    transform: perspective(800px) rotateX(0deg) rotateY(0deg);
+  }
+
+  40% {
+    opacity: 1;
+    -webkit-transform-origin: 0% 100%;
+    transform-origin: 0% 100%;
+    -webkit-transform: perspective(800px) rotateX(10deg) rotateY(10deg);
+    transform: perspective(800px) rotateX(10deg) rotateY(10deg);
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+    -webkit-transform: perspective(800px) rotateX(90deg) rotateY(0deg);
+    transform: perspective(800px) rotateX(90deg) rotateY(0deg);
+  }
+}

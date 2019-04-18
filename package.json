@@ -1,13 +1,8 @@
 {
   "name": "magic.css",
-  "version": "1.3.1",
+  "version": "1.4.0",
   "description": "Magic CSS3 animations",
-  "main": "gulpfile.js",
-  "devDependencies": {
-    "gulp-clean-css": "^3.9.4",
-    "gulp-concat": "^2.6.1",
-    "gulp-notify": "^2.2.0"
-  },
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,20 +10,26 @@
     "type": "git",
     "url": "git+https://github.com/miniMAC/magic.git"
   },
+  "author": "Christian Pucci <minimac@minimamente.com> (https://www.minimamente.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miniMAC/magic/issues"
+  },
+  "homepage": "https://github.com/miniMAC/magic#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.5.1",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5"
+  },
   "keywords": [
     "css",
     "css3",
     "animation",
     "animations",
     "magic"
-  ],
-  "author": "Christian Pucci <minimac@minimamente.com> (https://minimamente.com/)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/miniMAC/magic/issues"
-  },
-  "homepage": "https://github.com/miniMAC/magic#readme",
-  "dependencies": {
-    "gulp": "^3.9.1"
-  }
+  ]
 }

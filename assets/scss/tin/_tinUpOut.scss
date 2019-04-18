@@ -1,0 +1,50 @@
+.tinUpOut {
+  -webkit-animation-name: tinUpOut;
+  animation-name: tinUpOut;
+}
+@-webkit-keyframes tinUpOut {
+  0%,
+  20%,
+  40%,
+  50% {
+    opacity: 1;
+    -webkit-transform: scale(1, 1) translateY(0);
+    transform: scale(1, 1) translateY(0);
+  }
+
+  10%,
+  30% {
+    opacity: 1;
+    -webkit-transform: scale(1.1, 1.1) translateY(0);
+    transform: scale(1.1, 1.1) translateY(0);
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1, 1) translateY(-900%);
+    transform: scale(1, 1) translateY(-900%);
+  }
+}
+@keyframes tinUpOut {
+  0%,
+  20%,
+  40%,
+  50% {
+    opacity: 1;
+    -webkit-transform: scale(1, 1) translateY(0);
+    transform: scale(1, 1) translateY(0);
+  }
+
+  10%,
+  30% {
+    opacity: 1;
+    -webkit-transform: scale(1.1, 1.1) translateY(0);
+    transform: scale(1.1, 1.1) translateY(0);
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1, 1) translateY(-900%);
+    transform: scale(1, 1) translateY(-900%);
+  }
+}

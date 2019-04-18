@@ -1,0 +1,102 @@
+.foolishIn {
+  -webkit-animation-name: foolishIn;
+  animation-name: foolishIn;
+}
+@-webkit-keyframes foolishIn {
+  0% {
+    opacity: 0;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-transform: scale(0, 0) rotate(360deg);
+    transform: scale(0, 0) rotate(360deg);
+  }
+
+  20% {
+    opacity: 1;
+    -webkit-transform-origin: 0% 100%;
+    transform-origin: 0% 100%;
+    -webkit-transform: scale(0.5, 0.5) rotate(0deg);
+    transform: scale(0.5, 0.5) rotate(0deg);
+  }
+
+  40% {
+    opacity: 1;
+    -webkit-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+    -webkit-transform: scale(0.5, 0.5) rotate(0deg);
+    transform: scale(0.5, 0.5) rotate(0deg);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: scale(0.5, 0.5) rotate(0deg);
+    transform: scale(0.5, 0.5) rotate(0deg);
+  }
+
+  80% {
+    opacity: 1;
+    -webkit-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+    -webkit-transform: scale(0.5, 0.5) rotate(0deg);
+    transform: scale(0.5, 0.5) rotate(0deg);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-transform: scale(1, 1) rotate(0deg);
+    transform: scale(1, 1) rotate(0deg);
+  }
+}
+@keyframes foolishIn {
+  0% {
+    opacity: 0;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-transform: scale(0, 0) rotate(360deg);
+    transform: scale(0, 0) rotate(360deg);
+  }
+
+  20% {
+    opacity: 1;
+    -webkit-transform-origin: 0% 100%;
+    transform-origin: 0% 100%;
+    -webkit-transform: scale(0.5, 0.5) rotate(0deg);
+    transform: scale(0.5, 0.5) rotate(0deg);
+  }
+
+  40% {
+    opacity: 1;
+    -webkit-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+    -webkit-transform: scale(0.5, 0.5) rotate(0deg);
+    transform: scale(0.5, 0.5) rotate(0deg);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform-origin: 0%;
+    transform-origin: 0%;
+    -webkit-transform: scale(0.5, 0.5) rotate(0deg);
+    transform: scale(0.5, 0.5) rotate(0deg);
+  }
+
+  80% {
+    opacity: 1;
+    -webkit-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+    -webkit-transform: scale(0.5, 0.5) rotate(0deg);
+    transform: scale(0.5, 0.5) rotate(0deg);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-transform: scale(1, 1) rotate(0deg);
+    transform: scale(1, 1) rotate(0deg);
+  }
+}
