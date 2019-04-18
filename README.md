@@ -10,6 +10,11 @@ CSS3 Animations with special effects. [DEMO](https://www.minimamente.com/project
 npm i magic.css
 ```
 
+**YARN** - [Package url](https://yarnpkg.com/en/package/magic.css)
+```bash
+yarn add magic.css
+```
+
 ## Inclusion
 
 Include the file **magic.css** or include the minified version **magic.min.css**
