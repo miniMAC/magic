@@ -3,12 +3,6 @@
 
 CSS3 Animations with special effects. [DEMO](https://www.minimamente.com/project/magic/)
 
-## Installation
-
-**NPM**
-```bash
-npm i magic.css
-```
 ## Inclusion
 
 Include the file **magic.css** or include the minified version **magic.min.css**
