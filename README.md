@@ -5,7 +5,7 @@ CSS3 Animations with special effects. [DEMO](https://www.minimamente.com/project
 
 ## Installation
 
-**NPM**
+**NPM** - [Package url](https://www.npmjs.com/package/magic.css)
 ```bash
 npm i magic.css
 ```
