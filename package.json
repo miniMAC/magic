@@ -1,6 +1,6 @@
 {
   "name": "magic.css",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Magic CSS3 animations",
   "main": "index.js",
   "scripts": {
@@ -19,11 +19,10 @@
   "devDependencies": {
     "autoprefixer": "^9.5.1",
     "cssnano": "^4.1.10",
-    "gulp": "^4.0.0",
+    "gulp": "^4.0.1",
     "gulp-postcss": "^8.0.0",
     "gulp-rename": "^1.4.0",
-    "gulp-sass": "^4.0.2",
-    "gulp-sourcemaps": "^2.6.5"
+    "gulp-sass": "^4.0.2"
   },
   "keywords": [
     "css",
