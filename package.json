@@ -15,6 +15,9 @@
   "bugs": {
     "url": "https://github.com/miniMAC/magic/issues"
   },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/@miniMAC"
+  },
   "homepage": "https://github.com/miniMAC/magic#readme",
   "devDependencies": {
     "autoprefixer": "^9.6.1",
