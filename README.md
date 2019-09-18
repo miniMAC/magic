@@ -5,6 +5,11 @@ CSS3 Animations with special effects. [DEMO](https://www.minimamente.com/project
 
 ## Installation
 
+**GitHub Package Registry** - [Package url](https://github.com/miniMAC/magic/packages/24129)
+```bash
+npm install @minimac/magic.css@1.4.1
+```
+
 **NPM** - [Package url](https://www.npmjs.com/package/magic.css)
 ```bash
 npm i magic.css
