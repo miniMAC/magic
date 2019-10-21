@@ -1,7 +1,7 @@
 :tophat: magic
 ---------------
 
-CSS3 Animations with special effects. [DEMO](https://www.minimamente.com/project/magic/)
+CSS3 Animations with special effects. **(→ 3.1 kB gzip)** [DEMO](https://www.minimamente.com/project/magic/)
 
 ## Installation
 
