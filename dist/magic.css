@@ -1,6 +1,6 @@
 /*!
  * Magic - https://www.minimamente.com
- * Version - 1.4.1
+ * Version - 1.4.2
  * Licensed under the MIT license - https://opensource.org/licenses/MIT
  * Copyright (c) 2019 Christian Pucci
  */
@@ -2426,5 +2426,6 @@
   .magictime {
     -webkit-animation: unset !important;
             animation: unset !important;
+    -webkit-transition: none !important;
     transition: none !important; } }
 /*# sourceMappingURL=magic.css.map */
