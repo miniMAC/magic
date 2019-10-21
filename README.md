@@ -7,7 +7,7 @@ CSS3 Animations with special effects. **(→ 3.1 kB gzip)** [DEMO](https://www.m
 
 **GitHub Package Registry** - [Package url](https://github.com/miniMAC/magic/packages/24129)
 ```bash
-npm install @minimac/magic.css@1.4.1
+npm install @minimac/magic.css@1.4.2
 ```
 
 **NPM** - [Package url](https://www.npmjs.com/package/magic.css)
