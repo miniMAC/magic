@@ -1,7 +1,22 @@
 :tophat: magic
 ---------------
 
-CSS3 Animations with special effects. **(→ 3.1 kB gzip)** [DEMO](https://www.minimamente.com/project/magic/)
+CSS3 Animations with special effects. **(→ 3.1 kB gzip)**
+
+## Demo
+
+Checkout the demo for the animations [here](https://www.minimamente.com/project/magic/)
+
+## **Table of Contents**
+
+- [Installation](#installation)
+- [Getting Started](#getting-started)
+- [Usage with JavaScript](#usage-with-javascript)
+- [Usage with jQuery](#usage-with-jquery)
+- [HTML & CSS tips](#html--css-tips)
+- [:tada: Gulp and SCSS (SASS) compiling](#tada-gulp-and-scss-sass-compiling)
+- [:white_check_mark: Browser Support](#white_check_mark-browser-support)
+
 
 ## Installation
 
@@ -20,7 +35,7 @@ npm i magic.css
 yarn add magic.css
 ```
 
-## Inclusion
+## Getting Started
 
 Include the file **magic.css** or include the minified version **magic.min.css**
 
@@ -36,7 +51,8 @@ or
 
 ## Usage with JavaScript
 
-This is a sample code on hover with **JavaScript**, first you include the class "magictime" and after your desired animation.
+This is a sample code for on hover effect with **JavaScript**.
+First, Include the class `magictime` and then a desired animation class.
 ```js
 const selector = document.querySelector('.yourdiv')
 selector.classList.add('magictime', 'puffIn')
@@ -52,7 +68,7 @@ function myFunction() {
 setTimeout(myFunction, 5000);
 ```
 
-If you want to load the animation after certain time but with infinite loop, you can use this example:
+If you want to load the animation after certain time but with an infinite loop, you can use this example:
 ```js
 //set timer to 3 seconds, after that, load the magic animation and repeat forever
 function myFunction() {
@@ -64,7 +80,8 @@ setInterval(myFunction, 3000);
 
 ## Usage with jQuery
 
-This is a sample code on hover with jQuery, first you include the class "magictime" and after your desired animation.
+This is a sample code for on hover effect with jQuery.
+First, Include the class `magictime` and then the desired animation class.
 ```js
 $('.yourdiv').hover(function () {
     $(this).addClass('magictime puffIn');
@@ -88,7 +105,7 @@ setInterval(function(){
 ```
 ## HTML & CSS tips
 
-You can **change the time** of the animation by setting the class "magictime" for example:
+You can **change the time** of the animation by setting the class `magictime` for example:
 ```css
 .magictime {
     -webkit-animation-duration: 3s;
@@ -111,6 +128,31 @@ If you want to assign the **timing to a specific animation**, you can use the fo
     animation-duration: 10s;
 }
 ```
+
+## Animation Classes
+
+| MAGIC EFFECTS | BLING     | STATIC EFFECTS      | STATIC EFFECTS OUT | PERSPECTIVE            | ROTATE      |
+|---------------|-----------|---------------------|--------------------|------------------------|-------------|
+| magic         | puffIn    | openDownLeft        | openDownLeftOut    | perspectiveDown        | rotateDown  |
+| twisterInDown | puffOut   | openDownRight       | openDownRightOut   | perspectiveUp          | rotateUp    |
+| twisterInUp   | vanishIn  | openUpLeft          | openUpLeftOut      | perspectiveLeft        | rotateLeft  |
+| swap          | vanishOut | openUpRight         | openUpRightOut     | perspectiveRight       | rotateRight |
+|               |           | openDownLeftReturn  |                    | perspectiveDownReturn  |             |
+|               |           | openDownRightReturn |                    | perspectiveUpReturn    |             |
+|               |           | openUpLeftReturn    |                    | perspectiveLeftReturn  |             |
+|               |           | openUpRightReturn   |                    | perspectiveRightReturn |             |
+
+
+| SLIDE            | MATH      | TIN         | BOMB         | BOING        | ON THE SPACE  |
+|------------------|-----------|-------------|--------------|--------------|---------------|
+| slideDown        | swashOut  | tinRightOut | bombRightOut | boingInUp    | spaceOutUp    |
+| slideUp          | swashIn   | tinLeftOut  | bombLeftOut  | boingOutDown | spaceOutRight |
+| slideLeft        | foolishIn | tinUpOut    |              |              | spaceOutDown  |
+| slideRight       | holeOut   | tinDownOut  |              |              | spaceOutLeft  |
+| slideDownReturn  |           | tinRightIn  |              |              | spaceInUp     |
+| slideUpReturn    |           | tinLeftIn   |              |              | spaceInRight  |
+| slideLeftReturn  |           | tinUpIn     |              |              | spaceInDown   |
+| slideRightReturn |           | tinDownIn   |              |              | spaceInLeft   |
 
 :tada: Gulp and SCSS (SASS) compiling
 ---------------
