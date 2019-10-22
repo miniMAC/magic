@@ -1,0 +1,38 @@
+.spaceOutLeft {
+  -webkit-animation-name: spaceOutLeft;
+  animation-name: spaceOutLeft;
+}
+@-webkit-keyframes spaceOutLeft {
+  0% {
+    opacity: 1;
+    -webkit-transform-origin: 0% 50%;
+    transform-origin: 0% 50%;
+    -webkit-transform: scale(1) translate(0%, 0%);
+    transform: scale(1) translate(0%, 0%);
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform-origin: 0% 50%;
+    transform-origin: 0% 50%;
+    -webkit-transform: scale(0.2) translate(-200%, 0%);
+    transform: scale(0.2) translate(-200%, 0%);
+  }
+}
+@keyframes spaceOutLeft {
+  0% {
+    opacity: 1;
+    -webkit-transform-origin: 0% 50%;
+    transform-origin: 0% 50%;
+    -webkit-transform: scale(1) translate(0%, 0%);
+    transform: scale(1) translate(0%, 0%);
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform-origin: 0% 50%;
+    transform-origin: 0% 50%;
+    -webkit-transform: scale(0.2) translate(-200%, 0%);
+    transform: scale(0.2) translate(-200%, 0%);
+  }
+}

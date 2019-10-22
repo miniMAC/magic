@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+/*!
+ * Magic - https://www.minimamente.com
+ * Version - 1.4.2
+ * Licensed under the MIT license - https://opensource.org/licenses/MIT
+ * Copyright (c) 2019 Christian Pucci
+ */
+
+// bling
+@import "bling/puffIn";
+@import "bling/puffOut";
+@import "bling/vanishIn";
+@import "bling/vanishOut";
+
+// boing
+@import "boing/boingInUp";
+@import "boing/boingOutDown";
+
+// bomb
+@import "bomb/bombLeftOut";
+@import "bomb/bombRightOut";
+
+// magic_effects
+@import "magic_effects/magic";
+@import "magic_effects/swap";
+@import "magic_effects/twisterInDown";
+@import "magic_effects/twisterInUp";
+
+// math
+@import "math/foolishIn";
+@import "math/foolishOut";
+@import "math/holeOut";
+@import "math/swashIn";
+@import "math/swashOut";
+
+// on_the_space
+@import "on_the_space/spaceInDown";
+@import "on_the_space/spaceInLeft";
+@import "on_the_space/spaceInRight";
+@import "on_the_space/spaceInUp";
+@import "on_the_space/spaceOutDown";
+@import "on_the_space/spaceOutLeft";
+@import "on_the_space/spaceOutRight";
+@import "on_the_space/spaceOutUp";
+
+// perspective
+@import "perspective/perspectiveDown";
+@import "perspective/perspectiveDownReturn";
+@import "perspective/perspectiveLeft";
+@import "perspective/perspectiveLeftReturn";
+@import "perspective/perspectiveRight";
+@import "perspective/perspectiveRightReturn";
+@import "perspective/perspectiveUp";
+@import "perspective/perspectiveUpReturn";
+
+// rotate
+@import "rotate/rotateDown";
+@import "rotate/rotateLeft";
+@import "rotate/rotateRight";
+@import "rotate/rotateUp";
+
+// slide
+@import "slide/slideDown";
+@import "slide/slideDownReturn";
+@import "slide/slideLeft";
+@import "slide/slideLeftReturn";
+@import "slide/slideRight";
+@import "slide/slideRightReturn";
+@import "slide/slideUp";
+@import "slide/slideUpReturn";
+
+// static_effects
+@import "static_effects/openDownLeft";
+@import "static_effects/openDownLeftReturn";
+@import "static_effects/openDownRight";
+@import "static_effects/openDownRightReturn";
+@import "static_effects/openUpLeft";
+@import "static_effects/openUpLeftReturn";
+@import "static_effects/openUpRight";
+@import "static_effects/openUpRightReturn";
+
+// static_effects_out
+@import "static_effects_out/openDownLeftOut";
+@import "static_effects_out/openDownRightOut";
+@import "static_effects_out/openUpLeftOut";
+@import "static_effects_out/openUpRightOut";
+
+// tin
+@import "tin/tinDownIn";
+@import "tin/tinDownOut";
+@import "tin/tinLeftIn";
+@import "tin/tinLeftOut";
+@import "tin/tinRightIn";
+@import "tin/tinRightOut";
+@import "tin/tinUpIn";
+@import "tin/tinUpOut";
+
+// magictime
+@import "magictime";
+
+// media
+@import "media";

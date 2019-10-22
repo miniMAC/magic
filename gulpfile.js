@@ -1,54 +1,47 @@
-// NPM
-/*
-npm install gulp
-npm install --save-dev gulp-clean-css
-npm install --save-dev gulp-concat
-npm install --save-dev gulp-notify
-
-short syntax: npm install --save-dev gulp-clean-css gulp-concat gulp-notify
-*/
-
-var gulp = require('gulp');
-	cleanCSS 	 = require('gulp-clean-css'), // minimize CSS
-	concat       = require('gulp-concat'), // concat files
-	notify       = require('gulp-notify') // simple notify
-
-
 /**
- * CSS Styles
+ * Gulp
+ *
+ * npm install --save-dev gulp gulp-sass gulp-postcss autoprefixer gulp-rename
+ *
+ * @see https://gulpjs.com/
  */
-gulp.task('magicCSS', function () {
 
- 	return gulp.src([
- 		'./css/base.css',
- 		'./css/**/*.css'
- 	]) // take all CSS files
- 	.pipe(concat('magic.css')) // Create the CSS
- 	.pipe(gulp.dest('./')) // destination path
-	.pipe(notify({ 
-		message: 'magic CSS, created!',
-		onLast: true,
-		sound: 'Pop'
-		})
-	) // Simple Notify
-});
+const { src, dest, watch, parallel } = require('gulp');
+const sass = require('gulp-sass');
+const postcss = require('gulp-postcss');
+const autoprefixer = require('autoprefixer');
+const cssnano = require('cssnano');
+const rename = require('gulp-rename');
 
-gulp.task('magicCSSmin', function () {
+// Define project paths
+let paths = {
+    styles: {
+        // grab all .scss files from that path
+        src: 'assets/scss/*.scss',
+        // destination path
+        dest: 'dist'
+    }
+};
 
- 	return gulp.src([
- 		'./css/base.css',
- 		'./css/**/*.css'
- 	]) // take all CSS files
- 	.pipe(concat('magic.min.css')) // Create the CSS
- 	.pipe(cleanCSS()) // minimize CSS
- 	.pipe(gulp.dest('./')) // destination path
-	.pipe(notify({ 
-		message: 'magic CSS minifyed version, created!',
-		onLast: true,
-		sound: 'Pop'
-		})
-	) // Simple Notify
-});
+// SCSS
+function style() {
+    return src(paths.styles.src, { sourcemaps: true })
+        .pipe(sass().on("error", sass.logError))
+        .pipe(postcss([ autoprefixer() ]))
+        .pipe(dest(paths.styles.dest, { sourcemaps: '.' }))
+}
 
-// Default Task
-gulp.task('default', ['magicCSS', 'magicCSSmin']);
+function styleMin() {
+    return src(paths.styles.src, { sourcemaps: true })
+        .pipe(sass().on("error", sass.logError))
+        .pipe(postcss([ autoprefixer(), cssnano() ]))
+        .pipe(rename({ extname: '.min.css' }))
+        .pipe(dest(paths.styles.dest, { sourcemaps: '.' }));
+}
+
+
+// Watchers
+watch('assets/scss/*.scss', style);
+
+// Yo baby!! ✌️
+exports.default = parallel( style, styleMin );

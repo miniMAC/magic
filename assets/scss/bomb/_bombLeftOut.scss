@@ -1,0 +1,66 @@
+.bombLeftOut {
+  -webkit-animation-name: bombLeftOut;
+  animation-name: bombLeftOut;
+}
+@-webkit-keyframes bombLeftOut {
+  0% {
+    opacity: 1;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+  }
+
+  50% {
+    opacity: 1;
+    -webkit-transform-origin: -100% 50%;
+    transform-origin: -100% 50%;
+    -webkit-transform: rotate(-160deg);
+    transform: rotate(-160deg);
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform-origin: -100% 50%;
+    transform-origin: -100% 50%;
+    -webkit-transform: rotate(-160deg);
+    transform: rotate(-160deg);
+    -webkit-filter: blur(20px);
+    filter: blur(20px);
+  }
+}
+@keyframes bombLeftOut {
+  0% {
+    opacity: 1;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+  }
+
+  50% {
+    opacity: 1;
+    -webkit-transform-origin: -100% 50%;
+    transform-origin: -100% 50%;
+    -webkit-transform: rotate(-160deg);
+    transform: rotate(-160deg);
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform-origin: -100% 50%;
+    transform-origin: -100% 50%;
+    -webkit-transform: rotate(-160deg);
+    transform: rotate(-160deg);
+    -webkit-filter: blur(20px);
+    filter: blur(20px);
+  }
+}

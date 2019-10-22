@@ -1,2 +1,6 @@
-node_modules/
+# Exclusion
+/node_modules
 .DS_Store
+.vscode
+todo.txt
+next.md

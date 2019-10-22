@@ -1,0 +1,6 @@
+@media (print), (prefers-reduced-motion) {
+  .magictime {
+    animation: unset !important;
+    transition: none !important;
+  }
+}

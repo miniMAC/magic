@@ -1,29 +1,73 @@
 :tophat: magic
-=====
+---------------
 
-CSS3 Animations with special effects. Take a look: [DEMO PAGE](https://minimamente.com/example/magic_animations/)
+CSS3 Animations with special effects. **(→ 3.1 kB gzip)** [DEMO](https://www.minimamente.com/project/magic/)
 
-This is the **new Version**, all code are Refactoring and now `Retorun` is called `Return`
-
-If you want to use magic animations in [react](https://github.com/facebook/react), see [react-magic](https://github.com/react-map/react-magic) repository.
 ## Installation
 
+**GitHub Package Registry** - [Package url](https://github.com/miniMAC/magic/packages/24129)
+```bash
+npm install @minimac/magic.css@1.4.2
+```
 
-Include the CSS style: magic.css
-or
-include the mynified version: magic.min.css
+**NPM** - [Package url](https://www.npmjs.com/package/magic.css)
+```bash
+npm i magic.css
+```
 
-Example:
+**YARN** - [Package url](https://yarnpkg.com/en/package/magic.css)
+```bash
+yarn add magic.css
+```
+
+## Inclusion
+
+Include the file **magic.css** or include the minified version **magic.min.css**
+
 ```html
 <link rel="stylesheet" href="yourpath/magic.css">
 ```
 
-## Usage
+or
+
+```html
+<link rel="stylesheet" href="yourpath/magic.min.css">
+```
+
+## Usage with JavaScript
+
+This is a sample code on hover with **JavaScript**, first you include the class "magictime" and after your desired animation.
+```js
+const selector = document.querySelector('.yourdiv')
+selector.classList.add('magictime', 'puffIn')
+```
+
+If you want to load the animation after certain time, you can use this example:
+```js
+//set timer to 5 seconds, after that, load the magic animation
+function myFunction() {
+    const selector = document.querySelector('.yourdiv')
+    selector.classList.add('magictime', 'puffIn')
+}
+setTimeout(myFunction, 5000);
+```
+
+If you want to load the animation after certain time but with infinite loop, you can use this example:
+```js
+//set timer to 3 seconds, after that, load the magic animation and repeat forever
+function myFunction() {
+    const selector = document.querySelector('.yourdiv')
+    selector.classList.add('magictime', 'puffIn')
+}
+setInterval(myFunction, 3000);
+```
+
+## Usage with jQuery
 
 This is a sample code on hover with jQuery, first you include the class "magictime" and after your desired animation.
 ```js
 $('.yourdiv').hover(function () {
-  $(this).addClass('magictime puffIn');
+    $(this).addClass('magictime puffIn');
 });
 ```
 
@@ -31,66 +75,70 @@ If you want to load the animation after certain time, you can use this example:
 ```js
 //set timer to 5 seconds, after that, load the magic animation
 setTimeout(function(){
-  	$('.yourdiv').addClass('magictime puffIn');
+    $('.yourdiv').addClass('magictime puffIn');
 }, 5000);
 ```
 
 If you want to load the animation after certain time but with infinite loop, you can use this example:
 ```js
 //set timer to 3 seconds, after that, load the magic animation and repeat forever
-setInterval(function(){ 
-	$('.yourdiv').toggleClass('magictime puffIn');
+setInterval(function(){
+    $('.yourdiv').toggleClass('magictime puffIn');
 }, 3000 );
 ```
+## HTML & CSS tips
 
-You can change the time of the animation by set the class "magictime" for example:
+You can **change the time** of the animation by setting the class "magictime" for example:
 ```css
 .magictime {
--webkit-animation-duration: 3s;
--moz-animation-duration: 3s;
--o-animation-duration: 3s;
-animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
 }
 ```
 
-Default CSS timing is:
+**Default** CSS timing is:
 ```css
 .magictime {
--webkit-animation-duration: 1s;
--moz-animation-duration: 1s;
--o-animation-duration: 1s;
-animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
 }
 ```
 
-If you want to assign the timing to a specific animation, you can use that code (use 2 class):
+If you want to assign the **timing to a specific animation**, you can use the following code *(use 2 class)*:
 ```css
 .magictime.magic {
--webkit-animation-duration: 10s;
--moz-animation-duration: 10s;
--o-animation-duration: 10s;
-animation-duration: 10s;
+    -webkit-animation-duration: 10s;
+    animation-duration: 10s;
 }
 ```
-## Bower Installation
+
+:tada: Gulp and SCSS (SASS) compiling
+---------------
+
+If you want to customize the CSS files, now you will have the chance. For example, if you want to include only certain animations, you will have to go to this file:
+
+```html
+assets/scss/magic.scss
 ```
-bower install magic
+
+Comment or uncomment your desired file and run from terminal the following commands:
+
+```bash
+npm install
 ```
-## Browser Support
 
-Browsers | Version
---- | ---
-Chrome | 31+
-Firefox | 31+
-Safari | 7+
-iOS Safari | 7.1+
-Opera | 27+
-Android | 4.1+
-Android Chrome | 42+
-IE | 10+
-Opera Mini | :x:
+and last command:
 
-## PostCSS installer
+```bash
+gulp
+```
 
-PostCSS plugin that adds @keyframes from Magic Animations [Link Here](https://github.com/nucliweb/postcss-magic-animations)
-Thanks to [@Nucliweb](https://github.com/nucliweb)
+**Automatically** this generate the new files!
+
+
+:white_check_mark: Browser Support
+---------------
+
+**Browser** | Chrome | Firefox | Safari | iOS Safari | Opera | Android | Android Chrome | IE | Opera Mini
+--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---:
+**Version** | 31+ | 31+ | 7+ | 7.1+ | 27+ | 4.1+ | 42+ | 10+ | :x:
