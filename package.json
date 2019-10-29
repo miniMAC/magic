@@ -15,9 +15,6 @@
   "bugs": {
     "url": "https://github.com/miniMAC/magic/issues"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@miniMAC"
-  },
   "homepage": "https://github.com/miniMAC/magic#readme",
   "devDependencies": {
     "autoprefixer": "^9.7.0",
@@ -33,5 +30,8 @@
     "animation",
     "animations",
     "magic"
-  ]
+  ],
+  "dependencies": {
+    "np": "^5.1.2"
+  }
 }
