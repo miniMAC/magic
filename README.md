@@ -22,7 +22,7 @@ Checkout the demo for the animations [here](https://www.minimamente.com/project/
 
 **GitHub Package Registry** - [Package url](https://github.com/miniMAC/magic/packages/24129)
 ```bash
-npm install @minimac/magic.css@1.4.2
+npm install @minimac/magic.css
 ```
 
 **NPM** - [Package url](https://www.npmjs.com/package/magic.css)
