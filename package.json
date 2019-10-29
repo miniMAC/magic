@@ -1,6 +1,6 @@
 {
   "name": "magic.css",
-  "version": "1.4.4",
+  "version": "1.4.5",
   "description": "Magic CSS3 animations",
   "main": "index.js",
   "scripts": {
