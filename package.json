@@ -1,6 +1,6 @@
 {
   "name": "magic.css",
-  "version": "1.4.5",
+  "version": "1.4.6",
   "description": "Magic CSS3 animations",
   "main": "index.js",
   "scripts": {
@@ -17,12 +17,12 @@
   },
   "homepage": "https://github.com/miniMAC/magic#readme",
   "devDependencies": {
-    "autoprefixer": "^9.7.0",
+    "autoprefixer": "^9.8.5",
     "cssnano": "^4.1.10",
     "gulp": "^4.0.2",
     "gulp-postcss": "^8.0.0",
     "gulp-rename": "^1.4.0",
-    "gulp-sass": "^4.0.2"
+    "gulp-sass": "^4.1.0"
   },
   "keywords": [
     "css",
@@ -32,6 +32,6 @@
     "magic"
   ],
   "dependencies": {
-    "np": "^5.1.2"
+    "np": "^6.3.2"
   }
 }
