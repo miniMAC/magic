@@ -12,28 +12,24 @@
     opacity: 0;
     transform-origin: 50% 50%;
     transform: scale(2, 2);
-    -webkit-filter: blur(2px);
-            filter: blur(2px); }
+    filter: blur(2px); }
   100% {
     opacity: 1;
     transform-origin: 50% 50%;
     transform: scale(1, 1);
-    -webkit-filter: blur(0px);
-            filter: blur(0px); } }
+    filter: blur(0px); } }
 
 @keyframes puffIn {
   0% {
     opacity: 0;
     transform-origin: 50% 50%;
     transform: scale(2, 2);
-    -webkit-filter: blur(2px);
-            filter: blur(2px); }
+    filter: blur(2px); }
   100% {
     opacity: 1;
     transform-origin: 50% 50%;
     transform: scale(1, 1);
-    -webkit-filter: blur(0px);
-            filter: blur(0px); } }
+    filter: blur(0px); } }
 
 .puffOut {
   -webkit-animation-name: puffOut;
@@ -44,28 +40,24 @@
     opacity: 1;
     transform-origin: 50% 50%;
     transform: scale(1, 1);
-    -webkit-filter: blur(0px);
-            filter: blur(0px); }
+    filter: blur(0px); }
   100% {
     opacity: 0;
     transform-origin: 50% 50%;
     transform: scale(2, 2);
-    -webkit-filter: blur(2px);
-            filter: blur(2px); } }
+    filter: blur(2px); } }
 
 @keyframes puffOut {
   0% {
     opacity: 1;
     transform-origin: 50% 50%;
     transform: scale(1, 1);
-    -webkit-filter: blur(0px);
-            filter: blur(0px); }
+    filter: blur(0px); }
   100% {
     opacity: 0;
     transform-origin: 50% 50%;
     transform: scale(2, 2);
-    -webkit-filter: blur(2px);
-            filter: blur(2px); } }
+    filter: blur(2px); } }
 
 .vanishIn {
   -webkit-animation-name: vanishIn;
@@ -76,28 +68,24 @@
     opacity: 0;
     transform-origin: 50% 50%;
     transform: scale(2, 2);
-    -webkit-filter: blur(90px);
-            filter: blur(90px); }
+    filter: blur(90px); }
   100% {
     opacity: 1;
     transform-origin: 50% 50%;
     transform: scale(1, 1);
-    -webkit-filter: blur(0px);
-            filter: blur(0px); } }
+    filter: blur(0px); } }
 
 @keyframes vanishIn {
   0% {
     opacity: 0;
     transform-origin: 50% 50%;
     transform: scale(2, 2);
-    -webkit-filter: blur(90px);
-            filter: blur(90px); }
+    filter: blur(90px); }
   100% {
     opacity: 1;
     transform-origin: 50% 50%;
     transform: scale(1, 1);
-    -webkit-filter: blur(0px);
-            filter: blur(0px); } }
+    filter: blur(0px); } }
 
 .vanishOut {
   -webkit-animation-name: vanishOut;
@@ -108,28 +96,24 @@
     opacity: 1;
     transform-origin: 50% 50%;
     transform: scale(1, 1);
-    -webkit-filter: blur(0px);
-            filter: blur(0px); }
+    filter: blur(0px); }
   100% {
     opacity: 0;
     transform-origin: 50% 50%;
     transform: scale(2, 2);
-    -webkit-filter: blur(20px);
-            filter: blur(20px); } }
+    filter: blur(20px); } }
 
 @keyframes vanishOut {
   0% {
     opacity: 1;
     transform-origin: 50% 50%;
     transform: scale(1, 1);
-    -webkit-filter: blur(0px);
-            filter: blur(0px); }
+    filter: blur(0px); }
   100% {
     opacity: 0;
     transform-origin: 50% 50%;
     transform: scale(2, 2);
-    -webkit-filter: blur(20px);
-            filter: blur(20px); } }
+    filter: blur(20px); } }
 
 .boingInUp {
   -webkit-animation-name: boingInUp;
@@ -220,19 +204,16 @@
     opacity: 1;
     transform-origin: 50% 50%;
     transform: rotate(0deg);
-    -webkit-filter: blur(0px);
     filter: blur(0px); }
   50% {
     opacity: 1;
     transform-origin: -100% 50%;
     transform: rotate(-160deg);
-    -webkit-filter: blur(0px);
     filter: blur(0px); }
   100% {
     opacity: 0;
     transform-origin: -100% 50%;
     transform: rotate(-160deg);
-    -webkit-filter: blur(20px);
     filter: blur(20px); } }
 
 @keyframes bombLeftOut {
@@ -240,19 +221,16 @@
     opacity: 1;
     transform-origin: 50% 50%;
     transform: rotate(0deg);
-    -webkit-filter: blur(0px);
     filter: blur(0px); }
   50% {
     opacity: 1;
     transform-origin: -100% 50%;
     transform: rotate(-160deg);
-    -webkit-filter: blur(0px);
     filter: blur(0px); }
   100% {
     opacity: 0;
     transform-origin: -100% 50%;
     transform: rotate(-160deg);
-    -webkit-filter: blur(20px);
     filter: blur(20px); } }
 
 .bombRightOut {
@@ -264,19 +242,16 @@
     opacity: 1;
     transform-origin: 50% 50%;
     transform: rotate(0deg);
-    -webkit-filter: blur(0px);
     filter: blur(0px); }
   50% {
     opacity: 1;
     transform-origin: 200% 50%;
     transform: rotate(160deg);
-    -webkit-filter: blur(0px);
     filter: blur(0px); }
   100% {
     opacity: 0;
     transform-origin: 200% 50%;
     transform: rotate(160deg);
-    -webkit-filter: blur(20px);
     filter: blur(20px); } }
 
 @keyframes bombRightOut {
@@ -284,19 +259,16 @@
     opacity: 1;
     transform-origin: 50% 50%;
     transform: rotate(0deg);
-    -webkit-filter: blur(0px);
     filter: blur(0px); }
   50% {
     opacity: 1;
     transform-origin: 200% 50%;
     transform: rotate(160deg);
-    -webkit-filter: blur(0px);
     filter: blur(0px); }
   100% {
     opacity: 0;
     transform-origin: 200% 50%;
     transform: rotate(160deg);
-    -webkit-filter: blur(20px);
     filter: blur(20px); } }
 
 .magic {
