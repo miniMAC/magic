@@ -1,13 +1,13 @@
 /**
  * Gulp
  *
- * npm install --save-dev gulp gulp-sass gulp-postcss autoprefixer gulp-rename
+ * npm i --save-dev gulp sass gulp-sass postcss gulp-postcss autoprefixer gulp-rename cssnano gulp-cssnano
  *
  * @see https://gulpjs.com/
  */
 
 const { src, dest, watch, parallel } = require('gulp');
-const sass = require('gulp-sass');
+const sass = require('gulp-sass')(require('sass'));
 const postcss = require('gulp-postcss');
 const autoprefixer = require('autoprefixer');
 const cssnano = require('cssnano');
